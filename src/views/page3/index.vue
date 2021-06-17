@@ -5,7 +5,7 @@
 </template>
 
 <script>
-// import "../../components/btn1/index.css";
+import "../../components/btn1/index.css";
 export default {
   name: "page3",
   mounted() {
@@ -15,5 +15,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../../components/btn1/index.css";
+//@import "../../components/btn1/index.css";
 </style>

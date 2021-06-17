@@ -12,6 +12,7 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+//@import "../../components/btn1/index.css";
 </style>
+

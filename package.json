@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:client": "NODE_ENV=production webpack --config build/webpack.client.config.js --profile --json",
+    "build:client": "NODE_ENV=production webpack --config build/webpack.client.config.js",
     "build:server": "NODE_ENV=production webpack --config build/webpack.server.config.js",
     "build": "npm run build:client && npm run build:server",
     "start:ssr": "NODE_ENV=production node server.js"
